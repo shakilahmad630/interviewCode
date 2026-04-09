@@ -9,8 +9,6 @@ public class movedZero {
         System.out.println(Arrays.toString(arr));
     }
 
-
-
     public static void movedZero(int[] arr) {
         int j = 0;
 
