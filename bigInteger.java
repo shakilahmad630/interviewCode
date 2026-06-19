@@ -15,13 +15,12 @@ public class bigInteger {
         BigInteger num1 = sc.nextBigInteger();
         BigInteger num2 = sc.nextBigInteger();
         BigInteger num3, num4;
-        if(num1.compareTo(BigInteger.ZERO)>0 && num2.compareTo(BigInteger.ZERO)>0)
-        {
+
             num3 = num1.add(num2);
             num4 = num1.multiply(num2);
             System.out.println(num3);
             System.out.print(num4);
-        }
+
 
     }
 }
